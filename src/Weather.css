@@ -1,0 +1,69 @@
+body {
+      margin: 0;
+      padding: 0;
+      background-color: #87CEEB;
+	  overflow: hidden;
+    }
+    
+    .clouds {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('cloud.png') repeat-x top;
+      animation: clouds-animation 60s linear infinite;
+	    z-index: -1;
+    }
+    
+    @keyframes clouds-animation {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 100% 0;
+      }
+    }
+	
+
+ .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+    }
+    
+    .form input[type="text"],
+    .form button {
+      padding: 10px;
+      border: none;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      width: 200px;
+    }
+    
+    .form button {
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+    }
+	
+	
+
+@keyframes clouds-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
