@@ -1,0 +1,13 @@
+The project consist of 2 folders :
+
+weather_server folder is a django project which act as a backend server
+weather-app folder is a react app which act as a frontend for the project
+
+the weather data is fetched from a online api namely weatherapi and those weather data is fetched
+based on the location that is inputed from the react frontend app and there by returend with a json response
+
+To run this project firstofall run the backend using "python manage.py runserver: command and to start react app
+use "nmp start" it will automatically load to browser and all the request a hit to the locally hosted django server 
+that is in port 8000
+
+the detailed demonstration of the project is shown in the vedio "weatherapp.gif"
